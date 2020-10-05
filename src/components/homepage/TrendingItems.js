@@ -2,7 +2,7 @@ import React from "react";
 import "./TrendingItems.css";
 import { Card, Button } from "react-bootstrap";
 import { ChevronRight, Grade, StarHalf } from "@material-ui/icons";
-import data from "./data";
+import data from "../productpage/data";
 function TrendingItems() {
   return (
     <div className="treanding__items">

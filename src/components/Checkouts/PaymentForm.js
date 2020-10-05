@@ -33,7 +33,6 @@ export default function PaymentForm() {
                         required
                         id="cvv"
                         label="CVV"
-                        helperText="Last three digits on signature strip"
                         fullWidth
                         autoComplete="cc-csc"
                     />
@@ -41,7 +40,7 @@ export default function PaymentForm() {
                 <Grid item xs={12}>
                     <FormControlLabel
                         control={<Checkbox color="secondary" name="saveCard" value="yes" />}
-                        label="Remember credit card details for next time"
+                        label="Remember card details for next time"
                     />
                 </Grid>
             </Grid>

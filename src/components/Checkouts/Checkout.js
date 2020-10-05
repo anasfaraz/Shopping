@@ -128,7 +128,6 @@ export default function Checkout() {
                                             </Button>
                                         )}
                                         <Button
-                                            aria-required
                                             variant="contained"
                                             color="primary"
                                             onClick={handleNext}
@@ -141,7 +140,6 @@ export default function Checkout() {
                             )}
                     </React.Fragment>
                 </Paper>
-                <Copyright />
             </main>
         </React.Fragment>
     );

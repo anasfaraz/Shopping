@@ -62,9 +62,9 @@ export default class carts extends Component {
                                                 <h5 className="font-medium m-b-30">Rs1000</h5>
                                             </td>
                                             <td colspan="3" align="">
-                                                <Button className="text-right"variant="contained" color="primary">
-                                                    Remove
-                        </Button>
+                                                {/* <Button className="text-right"variant="contained" color="primary">
+                                                    X
+                        </Button> */}
                                             </td>
                                         </tr>
                                         <tr>
